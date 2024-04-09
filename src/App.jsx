@@ -1,11 +1,12 @@
 import { useState } from "react";
-import "./App.css";
 import Carousel from "./component/Carousel";
+import SlickCarousel from "./component2/SlickCarousel";
 
 function App() {
   return (
     <main>
-      <Carousel />
+      {/* <Carousel /> */}
+      <SlickCarousel />
     </main>
   );
 }
